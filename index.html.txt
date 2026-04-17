@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloudland Cuts | Barber Jonah Woods</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background: #1e2a5a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.services {
+    background: #2e3f7f;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    padding: 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.hours {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 30px;
+    text-align: center;
+}
+
+button {
+    background: #ffd700;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 40px;
+    background: #1e2a5a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>CLOUDLAND CUTS</h1>
+    <p>Barber: Jonah Woods</p>
+    <p>7996 US-19E, Roan Mountain, TN</p>
+</header>
+
+<div class="container">
+
+    <div class="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Skin Fades</li>
+            <li>Taper Fades</li>
+            <li>Burst Fades</li>
+            <li>Classic Cut</li>
+            <li>Straight Razor Face Shave (Hot Towel)</li>
+            <li>Straight Razor Head Shave (Hot Towel)</li>
+            <li>Beard Trim with Line-Up</li>
+            <li>House Calls</li>
+            <li>Events</li>
+        </ul>
+    </div>
+
+    <div class="hours">
+        <h2>Hours</h2>
+        <p>Tuesday: 10AM – 5PM</p>
+        <p>Wednesday: 10AM – 5PM</p>
+        <p>Thursday: 12PM – 6PM</p>
+        <p>Friday: 9AM – 4PM</p>
+        <p>Saturday: 9AM – 1PM</p>
+    </div>
+
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>📞 (423) 895-5402</p>
+        <p>📧 jonahwoods44@gmail.com</p>
+        <br>
+        <button onclick="window.location.href='tel:4238955402'">Call Now</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Cloudland Cuts</p>
+</footer>
+
+</body>
+</html>
